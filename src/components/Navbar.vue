@@ -9,8 +9,8 @@
       <router-link class="pr-6 font-light hover:text-gray-500" to="/">{{$t('Home')}}</router-link>
       <a class="pr-6 font-light hover:text-gray-500 cursor-pointer" @click="openResume">{{$t('Resume')}}</a>
 
-      <i v-if="!isDarkMode" @click="ToogleDarkMode" class="fas fa-moon ml-6 cursor-pointer border px-2 py-1 rounded-xl"></i>
-      <i v-else @click="ToogleDarkMode" class="fas fa-sun ml-6 cursor-pointer text-yellow-500 border px-2 py-1 rounded-xl"></i>
+      <i v-if="!isDarkMode" @click="toggleDarkMode" class="fas fa-moon ml-6 cursor-pointer border px-2 py-1 rounded-xl"></i>
+      <i v-else @click="toggleDarkMode" class="fas fa-sun ml-6 cursor-pointer text-yellow-500 border px-2 py-1 rounded-xl"></i>
     </div>
   </nav>
 </template>
@@ -20,15 +20,9 @@ export default {
     name: 'VNavbar',
     data() {
       return {
-        IamNotInHome: true,
         isDarkMode: true,
-        resumeLink: "https://drive.google.com/file/d/1rssCckqHot4NMFXlNpW4ZlKgAJtn1TWn/view?usp=sharing"
+        resumeLink: "https://drive.google.com/file/d/1sGWCWxCTTwvb0LFdAi1Sl2ZtpW9PVCfW/view?usp=sharing"
       };
-    },
-    watch: {
-        $route(to) {
-            this.IamNotInHome = to.path === "/";
-        }
     },
     methods: {
       goToRouter(destination) {
@@ -37,19 +31,15 @@ export default {
       openResume() {
         window.open(this.resumeLink, "_blank");
       },
-      ToogleDarkMode() {
-        this.isDarkMode ? localStorage.theme = 'light' : localStorage.theme = 'dark';
-        this.$router.go(0);
+      toggleDarkMode() {
+        this.isDarkMode = !this.isDarkMode;
+        document.documentElement.classList.toggle("dark", this.isDarkMode);
       }
     },
     created() {
-      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
-        this.isDarkMode = true;
-      } else {
-        document.documentElement.classList.remove('dark');
-        this.isDarkMode = false;
-      }
+      // Force dark mode on page load
+      this.isDarkMode = true;
+      document.documentElement.classList.add("dark");
     }
 };
 </script>
