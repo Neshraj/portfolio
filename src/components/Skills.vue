@@ -35,7 +35,7 @@ export default {
             skills: [
             { name: "HTML", image: require("../assets/images/skills/html.png")},
             { name: "CSS", image: require("../assets/images/skills/css.png")},
-            { name: "Bootstrap", image: require("../assets/images/skills/bootstrap.png")},
+            // { name: "Bootstrap", image: require("../assets/images/skills/bootstrap.png")},
             { name: "JavaScript", image: require("../assets/images/skills/javascript.png")},
             { name: "React JS", image: require("../assets/images/skills/reactjs.png")},
             { name: "Node JS", image: require("../assets/images/skills/nodejs.png")},
