@@ -21,7 +21,7 @@ export default {
     data() {
       return {
         isDarkMode: true,
-        resumeLink: "https://drive.google.com/file/d/1sGWCWxCTTwvb0LFdAi1Sl2ZtpW9PVCfW/view?usp=sharing"
+        resumeLink: "https://drive.google.com/file/d/1E6CYRXUC2ccsuCujsMsMroWzJKv0ZVk7/view?usp=sharing"
       };
     },
     methods: {
