@@ -4,7 +4,7 @@
             {{$t('Projects')}}
         </h1>
         <div class="flex flex-wrap bg-white dark:bg-gray-700 rounded -mx-px overflow-hidden">
-            <div class="w-full hover14 overflow-hidden cursor-pointer xl:w-1/2 border-b border-r">
+            <div class="w-full hover14 overflow-hidden cursor-pointer xl:w-1/2 border-b border-r flex justify-center items-center">
                 <div>
                     <a target="_blank" href="https://instaclone-almc.onrender.com">
                         <figure>
@@ -52,14 +52,14 @@
             <div class="w-full hover14 overflow-hidden xl:w-1/2 border-b hidden xl:block">
                 <div class="p-4">
                     <a target="_blank" href="https://onlinefiles.onrender.com">
-                        <figure>
+                        <figure >
                             <img class="w-full h-full" src="../assets/images/projects/onfl.png" alt="ONLINE FILES">
                         </figure>
                     </a>
                 </div>
             </div>
             <!-- 2 -->
-            <div class="w-full hover14 overflow-hidden cursor-pointer xl:w-1/2 border-b border-r">
+            <div class="w-full hover14 overflow-hidden cursor-pointer xl:w-1/2 border-b border-r flex justify-center items-center">
                 <div>
                     <a target="_blank" href="https://meetchats.onrender.com">
                         <figure>
@@ -114,7 +114,7 @@
                 </div>
             </div>
             <!-- 4 -->
-            <div class="w-full hover14 overflow-hidden cursor-pointer xl:w-1/2 border-b border-r">
+            <div class="w-full hover14 overflow-hidden cursor-pointer xl:w-1/2 border-b border-r flex justify-center items-center">
                 <div>
                     <a target="_blank" href="https://collegedetails.onrender.com">
                         <figure>
