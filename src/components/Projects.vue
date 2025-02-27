@@ -27,7 +27,15 @@
                 </div>
             </div>
             <!-- 1 -->
-
+                        <div class="w-full hover14 overflow-hidden xl:w-1/2 border-b xl:hidden">
+                <div class="p-4">
+                    <a target="_blank" href="https://onlinefiles.onrender.com">
+                        <figure>
+                            <img class="w-full " src="../assets/images/projects/onfl.png" alt="Dot Pos">
+                        </figure>
+                    </a>
+                </div>
+            </div>
             <div class="w-full overflow-hidden xl:w-1/2 border-b border-r">
                 <div class="flex flex-col space-y-6 justify-center items-center p-8 mt-8">
                     <div>
@@ -55,7 +63,7 @@
                 <div>
                     <a target="_blank" href="https://meetchats.onrender.com">
                         <figure>
-                            <img class="w-full" src="../assets/images/projects/mtcht.png" alt="Fatoorah Project">
+                            <img class="w-full" src="../assets/images/projects/mtcht.png" alt="MEETCHAT">
                         </figure>
                     </a>
                 </div>
@@ -73,7 +81,16 @@
                     </div>
                 </div>
             </div>
-
+            <!-- 3 -->
+            <div class="w-full hover14 overflow-hidden xl:w-1/2 border-b xl:hidden">
+                <div class="p-4">
+                    <a target="_blank" href="https://encryptanddecrypt.onrender.com">
+                        <figure>
+                            <img class="w-full " src="../assets/images/projects/msgendc.png" alt="MESSAGE ENCRYPTER AND DECRYPTER">
+                        </figure>
+                    </a>
+                </div>
+            </div>
             <div class="w-full overflow-hidden xl:w-1/2 border-b border-r">
                 <div class="flex flex-col space-y-6 justify-center items-center p-8 mt-8">
                     <div>
@@ -91,7 +108,7 @@
                 <div class="p-4">
                     <a target="_blank" href="https://encryptanddecrypt.onrender.com">
                         <figure>
-                            <img class="w-full h-full" src="../assets/images/projects/msgendc.png" alt="Itqan">
+                            <img class="w-full h-full" src="../assets/images/projects/msgendc.png" alt="MESSAGE ENCRYPTER AND DECRYPTER">
                         </figure>
                     </a>
                 </div>
@@ -101,7 +118,7 @@
                 <div>
                     <a target="_blank" href="https://collegedetails.onrender.com">
                         <figure>
-                            <img class="w-full" src="../assets/images/projects/clgdt.png" alt="Maham">
+                            <img class="w-full" src="../assets/images/projects/clgdt.png" alt="COLLEGE DETAILS WITH API">
                         </figure>
                     </a>
                 </div>
@@ -109,7 +126,7 @@
             <div class="w-full overflow-hidden xl:w-1/2 border-b ">
                 <div class="flex flex-col justify-center items-center space-y-6 p-8 mt-8">
                     <div>
-                        <h1 class="text-center text-fakhti font-bold text-2xl">COLLEGE DETAILS WITH API</h1>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">COLLEGE DETAILS WITH AP</h1>
                         <hr class="my-3 border-2">
                     </div>
                     <div>
@@ -117,10 +134,9 @@
                             {{$t('COLLEGEDETAILSWITHAPI')}}
                         </p>
                     </div>
-                </div>   
+                </div>
             </div>
-
-
+         
         </div>
     </div>
 </template>
