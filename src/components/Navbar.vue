@@ -6,7 +6,7 @@
       </h1>
     </div>
     <div>
-      <router-link class="pr-6 font-light hover:text-gray-500" to="/">{{$t('Home')}}</router-link>
+      <!-- <router-link class="pr-6 font-light hover:text-gray-500" to="/">{{$t('Home')}}</router-link> -->
       <a class="pr-6 font-light hover:text-gray-500 cursor-pointer" @click="openResume">{{$t('Resume')}}</a>
 
       <i v-if="!isDarkMode" @click="toggleDarkMode" class="fas fa-moon ml-6 cursor-pointer border px-2 py-1 rounded-xl"></i>
